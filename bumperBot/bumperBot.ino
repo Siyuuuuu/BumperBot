@@ -2,9 +2,10 @@
 //       Bumper Bot
 // =======================
 
-// Code for the bumper bot that is going forward until it hits 
-// on an object. Indicating LED will be turn on while the bot 
-// is backing up and turning towards another direction.
+// Code for the bumper bot that goes forward until it hits an object, 
+// then it will back up and choose a new direction. 
+// Indicator LED will be turned on while the bot is backing up. 
+
 
 #include <Servo.h>
 
